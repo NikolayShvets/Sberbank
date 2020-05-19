@@ -6,5 +6,5 @@
 4) из папки /Sberbank командой <pip3 install -r requirements.txt> установить все зависимотси
 5) в файле config.py заменить URI базы данных postgresql
 6) выполнить команду <export FLASK_APP=tasks.py>
-7) запустить flask сервер командой <flask run>
+7) командой <flask run> запустить flask сервер
 8) надеяться на лучшее

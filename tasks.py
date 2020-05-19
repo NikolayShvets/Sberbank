@@ -1,8 +1,6 @@
 from flask import Flask, request, jsonify, make_response
 from flask_restplus import Api, Resource, fields, reqparse
 from flask_sqlalchemy import SQLAlchemy
-from flask_marshmallow import Marshmallow
-import random
 
 app = Flask(__name__)
 api = Api(app, version="1.0", title="My first CRUD REST API",

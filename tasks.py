@@ -7,8 +7,7 @@ import random
 app = Flask(__name__)
 api = Api(app, version="1.0", title="My first CRUD REST API",
           description="TODO list and CRUD options for it")
-'''app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://nikonikoni:niko1324@localhost:5432/Sberbank"'''
+
 app.config.from_pyfile("config.py")
 
 db = SQLAlchemy(app)

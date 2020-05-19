@@ -4,6 +4,7 @@
 2) командой <python3 -m venv venv> создать вритуальную среду
 3) активировать виртуальную среду командой <source venv/bin/activate>
 4) из папки /Sberbank командой <pip3 install -r requirements.txt> установить все зависимотси
-5) выполнить команду <export FLASK_APP=tasks.py>
-6) запустить flask сервер командой <flask run>
-7) надеяться на лучшее
+5) в файле config.py заменить URI базы данных postgresql
+6) выполнить команду <export FLASK_APP=tasks.py>
+7) запустить flask сервер командой <flask run>
+8) надеяться на лучшее
